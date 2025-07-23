@@ -97,13 +97,12 @@ header.scrolled {
     color: white;
     text-align: center;
     padding: 0;
-    position: absolute;
-    top: 0;
-    left: 0;
+    position: relative;
     min-height: 100vh;
     display: flex;
     align-items: center;
     width: 100%;
+    margin-top: 0;
 }
 
 .hero .container {
@@ -230,11 +229,16 @@ header.scrolled {
     opacity: 0.9;
 }
 
+/* Main content positioning */
+main {
+    margin-top: 0;
+}
+
 /* Features Section */
 .features-section {
     padding: 5rem 0;
     background-color: #f8f9fa;
-    margin-top: 100vh;
+    margin-top: 0;
 }
 
 .features-section h3 {
