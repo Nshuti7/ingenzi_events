@@ -35,11 +35,39 @@
                             <h2>Welcome to INGENZI EVENTS</h2>
                             <p>Your premier platform for discovering and registering for exciting community events</p>
                         </div>
+                        <div class="hero-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">5</span>
+                                <span class="stat-label">Upcoming Events</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">100+</span>
+                                <span class="stat-label">Happy Participants</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">24/7</span>
+                                <span class="stat-label">Online Registration</span>
+                            </div>
+                        </div>
                     </div>
                     <div class="slide" style="background-image: url('https://media-cdn.sygictraveldata.com/media/800x600/612664395a40232133447d33247d38313139313132363931');">
                         <div class="slide-content">
                             <h2>Join Our Community</h2>
                             <p>Connect with like-minded people and create unforgettable memories</p>
+                        </div>
+                        <div class="hero-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">5</span>
+                                <span class="stat-label">Upcoming Events</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">100+</span>
+                                <span class="stat-label">Happy Participants</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">24/7</span>
+                                <span class="stat-label">Online Registration</span>
+                            </div>
                         </div>
                     </div>
                     <div class="slide" style="background-image: url('https://www.mwckigali.com/cdn-cgi/image/f=auto,w=auto,h=auto/https://event-assets.gsma.com/mwc_africa_venue.jpg');">
@@ -47,25 +75,25 @@
                             <h2>Registration</h2>
                             <p>Simple and secure registration process for all your favorite events</p>
                         </div>
+                        <div class="hero-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">5</span>
+                                <span class="stat-label">Upcoming Events</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">100+</span>
+                                <span class="stat-label">Happy Participants</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">24/7</span>
+                                <span class="stat-label">Online Registration</span>
+                            </div>
+                        </div>
                     </div>
                     <div class="slider-dots">
                         <div class="slider-dot active"></div>
                         <div class="slider-dot"></div>
                         <div class="slider-dot"></div>
-                    </div>
-                </div>
-                <div class="hero-stats">
-                    <div class="stat-item">
-                        <span class="stat-number">5</span>
-                        <span class="stat-label">Upcoming Events</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-number">100+</span>
-                        <span class="stat-label">Happy Participants</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-number">24/7</span>
-                        <span class="stat-label">Online Registration</span>
                     </div>
                 </div>
             </div>

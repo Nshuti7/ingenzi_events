@@ -287,7 +287,6 @@ style.textContent = `
         width: 100%;
         height: 400px;
         overflow: hidden;
-        border-radius: 10px;
         margin-bottom: 2rem;
     }
     
