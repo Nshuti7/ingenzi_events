@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Ingenzi Events</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <h1 class="logo">Ingenzi Events</h1>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                    <li><a href="admin_login.php">Admin</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="page-content">
+                <div class="content-card">
+                    <h2>Contact Us</h2>
+                    
+                    <p>Have questions about our events or need assistance with registration? We're here to help! Get in touch with us using the information below.</p>
+                    
+                    <div class="contact-info">
+                        <h3>Get in Touch</h3>
+                        <p><strong>Email:</strong> info@ingenzievents.com</p>
+                        <p><strong>Phone:</strong> +250 788 123 456</p>
+                        <p><strong>Address:</strong> Kigali, Rwanda</p>
+                        <p><strong>Business Hours:</strong> Monday - Friday, 8:00 AM - 6:00 PM</p>
+                    </div>
+                    
+                    <div class="contact-form">
+                        <h3>Send us a Message</h3>
+                        <div id="contactMessage" class="message-display"></div>
+                        <form id="contactForm" action="contact_submit.php" method="POST">
+                            <div class="form-group">
+                                <label for="contactName">Your Name *</label>
+                                <input type="text" id="contactName" name="contactName" required>
+                                <span class="error" id="contactNameError"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="contactEmail">Your Email *</label>
+                                <input type="email" id="contactEmail" name="contactEmail" required>
+                                <span class="error" id="contactEmailError"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="contactSubject">Subject *</label>
+                                <input type="text" id="contactSubject" name="contactSubject" required>
+                                <span class="error" id="contactSubjectError"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="contactMessageText">Message *</label>
+                                <textarea id="contactMessageText" name="contactMessage" rows="5" required></textarea>
+                                <span class="error" id="contactMessageError"></span>
+                            </div>
+                            
+                            <button type="submit" class="btn-submit">Send Message</button>
+                        </form>
+                    </div>
+                    
+                    <div class="back-link">
+                        <a href="index.php" class="btn-back">← Back to Home</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Ingenzi Events. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 

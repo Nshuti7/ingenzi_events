@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Successful - Ingenzi Events</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <h1 class="logo">Ingenzi Events</h1>
+                <ul class="nav-menu">
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="admin_login.php">Admin</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="thank-you-section">
+                <div class="success-card">
+                    <div class="success-icon">✓</div>
+                    <h2 id="successTitle">Submission Successful!</h2>
+                    <p id="successMessage">Thank you for your submission. We have received your information.</p>
+                    <p>We will get back to you soon with any additional information you may need.</p>
+                    
+                    <div class="action-buttons">
+                        <a href="index.php" class="btn-primary">Browse Events</a>
+                        <a href="contact.html" class="btn-secondary">Contact Us</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Ingenzi Events. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Check if user came from contact form or event registration
+        const referrer = document.referrer;
+        
+        if (referrer.includes('contact.html')) {
+            // User came from contact form
+            document.getElementById('successTitle').textContent = 'Message Sent Successfully!';
+            document.getElementById('successMessage').textContent = 'Thank you for contacting us. Your message has been received.';
+        } else if (referrer.includes('event.php')) {
+            // User came from event registration
+            document.getElementById('successTitle').textContent = 'Registration Successful!';
+            document.getElementById('successMessage').textContent = 'Thank you for registering for our event. Your registration has been confirmed.';
+        }
+        // Default text remains if referrer is not recognized
+    </script>
+</body>
+</html> 
