@@ -48,7 +48,7 @@ A modern, responsive event registration platform built with PHP, MySQL, HTML5, C
 1. **Clone or Download**
    ```bash
    # If using git
-   git clone [repository-url]
+   git clone https://github.com/Nshuti7/ingenzi_events.git
    cd ingenzi_events
    
    # Or download and extract to your web server directory
