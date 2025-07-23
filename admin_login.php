@@ -91,7 +91,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 Ingenzi Events. All rights reserved.</p>
+            <p>&copy; 2025 INGENZI EVENTS. All rights reserved.</p>
         </div>
     </footer>
 

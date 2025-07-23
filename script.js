@@ -332,7 +332,7 @@ style.textContent = `
     
     /* Scroll effect for header */
     header.scrolled {
-        background-color: rgba(128, 0, 0, 0.95);
+        background-color: rgba(41, 32, 32, 0.95);
         backdrop-filter: blur(10px);
     }
     
